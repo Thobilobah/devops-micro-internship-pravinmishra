@@ -33,7 +33,8 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+I believe that a successful career in technology is not built by chasing every new tool or trend but by developing the ability to deeply understand systems, solve problems, and consistently deliver value. Many people believe that success in tech comes mainly from learning the newest programming language, collecting certifications, or having the perfect background. However, my experience has shown me that curiosity, discipline, and the ability to troubleshoot when things break are more valuable long term.
+Coming from an Electrical Engineering background into software development, cloud support, and DevOps, I discovered that the most important skill is not knowing everything but having the mindset to figure things out. Technologies will always change, but someone who can learn, adapt, debug, communicate, and build reliable solutions will always remain valuable.
 
 ---
 
@@ -55,11 +56,12 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+Consistent small improvements compound into significant career growth.
 
 ### Evidence from my life
 
-Add your answer here...
+When I started transitioning deeper into software development and cloud technologies, I did not master everything immediately. I spent time consistently learning programming, building projects, practicing Git, understanding APIs, and later learning Azure and DevOps concepts.
+The results became visible over time. I progressed from building frontend applications to developing full-stack applications, then moved into technical support engineering where I now troubleshoot cloud infrastructure and customer environments.
 
 ---
 
@@ -67,11 +69,12 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+The ability to troubleshoot and understand systems is more valuable than memorizing tools.
 
 ### Evidence from my life
 
-Add your answer here...
+Working as a Technical Support Engineer exposed me to real-world cloud problems where solutions were not always straightforward. I had to analyze issues, investigate logs, understand API behavior, work with Azure services, and identify root causes.
+This experience taught me that tools change, but problem-solving principles remain constant. Understanding how systems communicate and fail has helped me become better at supporting customers and improving solutions.
 
 ---
 
@@ -79,11 +82,12 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Building and documenting real projects creates more opportunities than only studying theory.
 
 ### Evidence from my life
 
-Add your answer here...
+I noticed that my practical projects helped me progress faster. Building applications with .NET, APIs, databases, and frontend technologies gave me experience I could demonstrate.
+Creating projects, maintaining GitHub repositories, and working with real technologies made my learning more practical and helped me move into professional software and cloud roles.
 
 ---
 
@@ -135,12 +139,23 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
+The Journey of Tobby Taiwo: From Engineering Graduate to Cloud and DevOps Engineer
+
+
+Five years ago, Tobby Taiwo began his journey with a background in Electrical Engineering and a curiosity for how technology systems worked. Today, he has become a Cloud and DevOps Engineer known for building reliable systems, automating processes, and helping teams deliver scalable solutions.
+After graduating with an Engineering degree, Tobby continued developing his skills in software engineering and cloud technologies. He built and shipped software projects involving frontend applications, backend APIs, databases, and deployment workflows. His portfolio demonstrated his ability to understand applications from development to production.
+During his career progression, he worked with cloud infrastructure, supporting enterprise environments and troubleshooting complex technical issues. He contributed to improving system reliability by investigating incidents, optimizing configurations, and automating repetitive processes.
+Tobby developed strong expertise in cloud platforms, containerization, CI/CD practices, infrastructure automation, and system troubleshooting. He worked with technologies including Azure services, Kubernetes, Docker, scripting tools, APIs, and automation frameworks.
+His GitHub portfolio became a reflection of his growth, containing projects that demonstrated practical implementation rather than only theoretical knowledge. He documented his learning journey, shared technical insights, and contributed to the developer community.
+Beyond technical skills, Tobby became recognized for his ability to communicate complex technical concepts clearly and collaborate with different teams. His experience working with customers and engineers helped him bridge the gap between technical solutions and real-world business needs.
+He also earned professional certifications, continued improving his DevOps skills, and contributed to building reliable cloud systems used by organizations.
+Looking back, his biggest achievement was not learning a particular tool but developing the mindset of continuous improvement, problem-solving, and building things that create real impact.
+P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community ( https://discord.pravinmishra.com/ ).
 
 ### Public Link
 
 Paste your link here:
-
+https://medium.com/@taiwotobiloba1/the-journey-of-tobby-taiwo-from-engineering-graduate-to-cloud-and-devops-engineer-2ec674f2c46a
 `__________________________`
 
 ---
@@ -165,7 +180,7 @@ This is about self-awareness, not judgment.
 
 ### Answer Format
 
-**Yes / No**
+**Yes **
 
 If Yes:
 
@@ -173,7 +188,9 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+In the past, whenever I took shortcuts(probably using ai for all my work) instead of properly understanding a concept or completing a task the right way, I felt temporary relief but later experienced regret because I knew I had reduced my opportunity to truly learn.
+One example is when learning technical concepts and focusing too much on finishing tasks instead of understanding the underlying principles. Over time, I realized that shortcuts create gaps that eventually appear when facing real-world problems.
+This taught me that discipline and doing things properly are more valuable than rushing for quick results. I now try to focus on building strong foundations because the quality of my skills determines the quality of my work.
 
 ---
 
@@ -199,16 +216,30 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. Atomic Habits by James Clear
+
+![image 01](./Users/oluwatobilobataiwo/Desktop/devops-micro-internship-pravinmishra/week-01-success-mindset/screenshots/image 01.jpeg)
+
+2. Deep Work by Cal Newport
+
+![image 02](./Users/oluwatobilobataiwo/Desktop/devops-micro-internship-pravinmishra/week-01-success-mindset/screenshots/image 01.jpeg)
+
+3. The Psychology of Money by Morgan Housel
+![image 03](./Users/oluwatobilobataiwo/Desktop/devops-micro-internship-pravinmishra/week-01-success-mindset/screenshots/image 01.jpeg)
+4. The 7 Habits of Highly Effective People by Stephen Covey
+![image 04](./Users/oluwatobilobataiwo/Desktop/devops-micro-internship-pravinmishra/week-01-success-mindset/screenshots/image 01.jpeg)
+5. Mindset by Carol Dweck
+![image 05](./Users/oluwatobilobataiwo/Desktop/devops-micro-internship-pravinmishra/week-01-success-mindset/screenshots/image 01.jpeg)
+6. So Good They Can't Ignore You by Cal Newport
+![image 06](./Users/oluwatobilobataiwo/Desktop/devops-micro-internship-pravinmishra/week-01-success-mindset/screenshots/image 01.jpeg)
+7. The 5am Club by Robin Sharma
+![image 07](./Users/oluwatobilobataiwo/Desktop/devops-micro-internship-pravinmishra/week-01-success-mindset/screenshots/image 01.jpeg)
+8. Clean Code by Robert C. Martin
+![image 08](./Users/oluwatobilobataiwo/Desktop/devops-micro-internship-pravinmishra/week-01-success-mindset/screenshots/image 01.jpeg)
+9. The Phoenix Project by Gene Kim
+![image 09](./Users/oluwatobilobataiwo/Desktop/devops-micro-internship-pravinmishra/week-01-success-mindset/screenshots/image 01.jpeg)
+10. Accelerate by Nicole Forsgren, Jez Humble & Gene Kim
+![image 010](./Users/oluwatobilobataiwo/Desktop/devops-micro-internship-pravinmishra/week-01-success-mindset/screenshots/image 01.jpeg)
 
 ---
 
@@ -237,16 +268,16 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* Learning hours per week
+* DevOps/cloud concepts completed
+* Projects shipped
+* GitHub contributions
+* Technical documentation written
+* Certifications completed
+* Deep work sessions completed
+* Sleep quality and energy level
+* Exercise consistency
+* Time spent on social media
 
 ---
 
@@ -268,11 +299,11 @@ Examples:
 
 ### Did You Do It?
 
-**Yes / No**
+**Yes **
 
 Answer:
 
-Add your answer here...
+I wrote down my responsibilities, career goals, learning targets, projects I want to complete, skills I need to improve, financial goals, and personal commitments.
 
 ---
 
@@ -290,7 +321,9 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
+* Mon-Thu: 1–2 hours of focused learning, document learning notes
+* Saturday: Take 8 hours DMI class
+* Sunday: Weekly reflection, Review progress, Plan the upcoming week
 
 ---
 
@@ -298,11 +331,11 @@ Add your answer here...
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+Tuesday, Thursday, and Friday evenings.
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
+3–4 focused sessions weekly.
 
 ---
 
@@ -316,7 +349,11 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
+* Limit unnecessary social media usage
+* Keep phone away during deep work sessions
+* Use a dedicated study environment
+* Avoid multitasking during learning
+* Prioritize completing important tasks before entertainment
 
 ---
 
@@ -324,15 +361,15 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+I realized that my biggest advantage is my ability to learn continuously and adapt. My journey from Electrical Engineering into software development and cloud engineering proves that consistent effort creates opportunities.
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+I sometimes spend too much time trying to learn many things at once. I need to focus more on completing projects and building deeper expertise instead of constantly switching between topics.
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+I will spend at least one focused hour every weekday improving my DevOps skills, documenting what I learn, and applying concepts through practical projects.
 
 ### LinkedIn Post
 
@@ -347,7 +384,10 @@ Paste your LinkedIn post link here:
 - LinkedIn Post URL: **ADD LINK HERE**  
 - Blog / Medium : **ADD LINK HERE**  
 
----
+---https://www.linkedin.com/posts/oluwatobiloba-taiwo_join-the-dmi-devops-micro-internship-activity-7477087478840131584-VPcL?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA
+
+https://medium.com/@taiwotobiloba1/the-journey-of-tobby-taiwo-from-engineering-graduate-to-cloud-and-devops-engineer-2ec674f2c46a
+
 
 ## 📌 About DMI & CloudAdvisory
 
