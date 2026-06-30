@@ -64,10 +64,10 @@ This is not a course. It is an internship-style program — real deployments, re
 
 ---
 
-**Your stack (uncomment each badge as you earn it):**
+**Your stack :**
 
 <!-- Week 00 → Internet & Networking Basics -->
-<!-- [![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/) -->
+[![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/)
 
 <!-- Week 01 → Success Mindset -->
 [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/) 
@@ -111,7 +111,7 @@ This is not a course. It is an internship-style program — real deployments, re
 <!-- Week 14 → Final Project / Capstone -->
 <!-- [![Week 14 – Capstone](./badges/week-14.svg)](./week-14-final-project/) -->
 
-*Complete a week → uncomment the badge → watch your stack grow.*
+
 
 ---
 
@@ -132,7 +132,8 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
+| 00 | Internet & Networking Basics | ✅ Completed| ✅ Solved
+| — | — |
 | 01 | Success Mindset | ✅ Completed | ✅ Solved| ---https://www.linkedin.com/posts/oluwatobiloba-taiwo_join-the-dmi-devops-micro-internship-activity-7477087478840131584-VPcL?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA | https://medium.com/@taiwotobiloba1/the-journey-of-tobby-taiwo-from-engineering-graduate-to-cloud-and-devops-engineer-2ec674f2c46a |
 | 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
 | 03 | Linux for DevOps | ⬜ Not Started | ⏳ Pending | — | — |

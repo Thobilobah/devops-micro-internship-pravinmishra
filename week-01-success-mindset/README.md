@@ -218,28 +218,43 @@ Choose books that improve:
 
 1. Atomic Habits by James Clear
 
-![image 01](./Users/oluwatobilobataiwo/Desktop/devops-micro-internship-pravinmishra/week-01-success-mindset/screenshots/image 01.jpeg)
+![image 01](screenshots/image-01.jpeg)
 
 2. Deep Work by Cal Newport
 
-![image 02](./Users/oluwatobilobataiwo/Desktop/devops-micro-internship-pravinmishra/week-01-success-mindset/screenshots/image 01.jpeg)
+![image 02](screenshots/image-02.jpeg)
 
 3. The Psychology of Money by Morgan Housel
-![image 03](./Users/oluwatobilobataiwo/Desktop/devops-micro-internship-pravinmishra/week-01-success-mindset/screenshots/image 01.jpeg)
+
+![image 03](screenshots/image-03.jpeg)
+
 4. The 7 Habits of Highly Effective People by Stephen Covey
-![image 04](./Users/oluwatobilobataiwo/Desktop/devops-micro-internship-pravinmishra/week-01-success-mindset/screenshots/image 01.jpeg)
+
+![image 04](screenshots/image-04.webp)
+
 5. Mindset by Carol Dweck
-![image 05](./Users/oluwatobilobataiwo/Desktop/devops-micro-internship-pravinmishra/week-01-success-mindset/screenshots/image 01.jpeg)
+
+![image 05](screenshots/image-05.jpeg)
+
 6. So Good They Can't Ignore You by Cal Newport
-![image 06](./Users/oluwatobilobataiwo/Desktop/devops-micro-internship-pravinmishra/week-01-success-mindset/screenshots/image 01.jpeg)
+
+![image 06](screenshots/image-06.webp)
+
 7. The 5am Club by Robin Sharma
-![image 07](./Users/oluwatobilobataiwo/Desktop/devops-micro-internship-pravinmishra/week-01-success-mindset/screenshots/image 01.jpeg)
+
+![image 07](screenshots/image-07.jpeg)
+
 8. Clean Code by Robert C. Martin
-![image 08](./Users/oluwatobilobataiwo/Desktop/devops-micro-internship-pravinmishra/week-01-success-mindset/screenshots/image 01.jpeg)
+
+![image 08](screenshots/image-08.jpeg)
+
 9. The Phoenix Project by Gene Kim
-![image 09](./Users/oluwatobilobataiwo/Desktop/devops-micro-internship-pravinmishra/week-01-success-mindset/screenshots/image 01.jpeg)
+
+![image 09](screenshots/image-09.jpeg)
+
 10. Accelerate by Nicole Forsgren, Jez Humble & Gene Kim
-![image 010](./Users/oluwatobilobataiwo/Desktop/devops-micro-internship-pravinmishra/week-01-success-mindset/screenshots/image 01.jpeg)
+
+![image 010](screenshots/image-10.jpeg)
 
 ---
 
@@ -331,7 +346,7 @@ Example:
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Tuesday, Thursday, and Friday evenings.
+Tuesday, Wednesday, and Thursday evenings.
 
 #### How Many Sessions Per Week?
 
