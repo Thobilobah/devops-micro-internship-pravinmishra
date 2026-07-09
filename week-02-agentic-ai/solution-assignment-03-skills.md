@@ -20,7 +20,7 @@ Create the required `.claude/skills/` directory structure for all skills.
 
 #### Screenshot 1 — Skills folder structure in VS Code
 
-Add your screenshot here.
+![Assignment-03-screenshot](/week-02-agentic-ai/screenshots/Screenshot-11.png)
 
 ---
 
@@ -34,13 +34,13 @@ Place all required skill files into their correct directories and verify their c
 
 #### Screenshot 2 — scaffold-terraform skill folder contents
 
-Add your screenshot here.
+![Assignment-03-screenshot](/week-02-agentic-ai/screenshots/Screenshot-12.png)
 
 ---
 
 #### Screenshot 3 — tf-plan/SKILL.md showing allowed-tools restrictions
 
-Add your screenshot here.
+![Assignment-03-screenshot](/week-02-agentic-ai/screenshots/Screenshot-13.png)
 
 ---
 
@@ -54,13 +54,17 @@ Execute the `/scaffold-terraform` skill to generate a full Terraform infrastruct
 
 #### Screenshot 4 — Claude scaffold execution result
 
-Add your screenshot here.
+![Assignment-03-screenshot](/week-02-agentic-ai/screenshots/Screenshot-14.png)
 
 ---
 
 #### Screenshot 5 — Generated terraform/ folder with all files
 
-Add your screenshot here.
+![Assignment-03-screenshot](/week-02-agentic-ai/screenshots/Screenshot-15a.png)
+![Assignment-03-screenshot](/week-02-agentic-ai/screenshots/Screenshot-15b.png)
+![Assignment-03-screenshot](/week-02-agentic-ai/screenshots/Screenshot-15c.png)
+![Assignment-03-screenshot](/week-02-agentic-ai/screenshots/Screenshot-15d.png)
+![Assignment-03-screenshot](/week-02-agentic-ai/screenshots/Screenshot-15e.png)
 
 ---
 
@@ -74,7 +78,7 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 #### Screenshot 6 — /tf-plan execution and Claude analysis output
 
-Add your screenshot here.
+![Assignment-03-screenshot](/week-02-agentic-ai/screenshots/Screenshot-16.png)
 
 ---
 

@@ -20,7 +20,9 @@ Create the `.claude/agents/` directory and add all required agent files.
 
 #### Screenshot 1 — Agents folder structure in VS Code
 
-Add your screenshot here.
+![Assignment-04-sc](/week-02-agentic-ai/screenshots/Screenshot-17a.png)
+![Assignment-04-sc](/week-02-agentic-ai/screenshots/Screenshot-17b.png)
+![Assignment-04-sc](/week-02-agentic-ai/screenshots/Screenshot-17c.png)
 
 ---
 
@@ -34,19 +36,19 @@ Analyze the configuration differences between the three agents and demonstrate u
 
 #### 1. Why does the cost optimizer use Haiku instead of Sonnet?
 
-Add your answer here...
+The cost optimizer uses Haiku because cost analysis is mainly a read-and-analyze task that doesn't require deep reasoning or code generation. Haiku is faster and less expensive to run, making it ideal for quickly reviewing Terraform files and suggesting cost-saving opportunities.
 
 ---
 
 #### 2. Why does the security auditor NOT have Write in its tools list?
 
-Add your answer here...
+The security auditor is designed only to inspect and report security issues, not modify infrastructure code. By omitting the Write tool, the agent cannot accidentally change Terraform files, ensuring its role remains a safe, read-only security review.
 
 ---
 
 #### 3. Why does the tf-writer use `inherit` instead of a specific model?
 
-Add your answer here...
+The tf-writer uses inherit so it automatically uses whichever model is currently active in the Claude Code session. This provides flexibility—users can choose a faster model like Haiku or a more capable model like Sonnet or Opus depending on the complexity of the Terraform code they need to generate, without changing the agent configuration.
 
 ---
 
@@ -54,13 +56,13 @@ Add your answer here...
 
 #### Screenshot 2 — security-auditor.md frontmatter
 
-Add your screenshot here.
+![Assignment-04-sc](/week-02-agentic-ai/screenshots/Screenshot-18.png)
 
 ---
 
 #### Screenshot 3 — cost-optimizer.md frontmatter
 
-Add your screenshot here.
+![Assignment-04-sc](/week-02-agentic-ai/screenshots/Screenshot-19.png)
 
 ---
 
@@ -74,13 +76,14 @@ Trigger the security auditor agent and analyze the generated security report for
 
 #### Screenshot 4 — Security auditor delegation triggered
 
-Add your screenshot here.
+![Assignment-04-sc](/week-02-agentic-ai/screenshots/Screenshot-20.png)
 
 ---
 
 #### Screenshot 5 — Security audit report output
 
-Add your screenshot here.
+![Assignment-04-sc](/week-02-agentic-ai/screenshots/Screenshot-22.png)
+![Assignment-04-sc](/week-02-agentic-ai/screenshots/Screenshot-21.png)
 
 ---
 
@@ -94,7 +97,8 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 #### Screenshot 6 — Cost optimization report output
 
-Add your screenshot here.
+![Assignment-04-sc](/week-02-agentic-ai/screenshots/Screenshot-23.png)
+![Assignment-04-sc](/week-02-agentic-ai/screenshots/Screenshot-24.png)
 
 ---
 
