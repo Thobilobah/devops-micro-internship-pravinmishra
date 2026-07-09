@@ -18,7 +18,7 @@ Capture Claude’s response before `CLAUDE.md` exists in the project to establis
 
 ### Evidence
 
-#### Screenshot 1 — Claude response before CLAUDE.md
+#### Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
 
 ![Assignment-02](/week-02-agentic-ai/screenshots/Screenshot-06.png)
 
@@ -32,7 +32,7 @@ Generate an initial `CLAUDE.md` file using the `/init` command and review the au
 
 ### Evidence
 
-#### Screenshot 2 — Auto-generated CLAUDE.md
+#### Screenshot 2 — The auto-generated CLAUDE.md open in VS Code showing its content
 
 ![Assignment-02](/week-02-agentic-ai/screenshots/Screenshot-07.png)
 
@@ -46,7 +46,7 @@ Update the generated `CLAUDE.md` file by adding project-specific instructions ac
 
 ### Evidence
 
-#### Screenshot 3 — Customized CLAUDE.md (all 5 sections visible)
+#### Screenshot 3 — Your customized CLAUDE.md in VS Code showing all 5 sections (scroll to show the full file)
 
 ![Assignment-02](/week-02-agentic-ai/screenshots/Screenshot-08.png)
 
@@ -60,13 +60,27 @@ Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a ne
 
 ### Evidence
 
-#### Screenshot 4 — Claude response with project-specific deployment details
+#### Screenshot 4 — Claude's specific, detailed answer after reading CLAUDE.md (Claude mentioning S3, CloudFront and Terraform)
 
 ![Assignment-02](/week-02-agentic-ai/screenshots/Screenshot-09.png)
 
 ---
 
-#### Screenshot 5 — Claude response rejecting React/component change based on rules
+#### Screenshot 5 — Claude refusing or warning against adding React because of the "No JavaScript" convention defined in CLAUDE.md
+
+Add your screenshot here.
+
+---
+
+# Task 5 — Commit and push your changes to your fork in GitHub
+
+## Goal
+
+Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instructions are version-controlled.
+
+### Evidence
+
+#### Screenshot 6 — `CLAUDE.md` visible in your GitHub repository after pushing the commit
 
 ![Assignment-02](/week-02-agentic-ai/screenshots/Screenshot-10.png)
 
@@ -90,12 +104,13 @@ Paste your forked repository URL here:
 
 # Completion Checklist
 
-- [ ] Screenshot 1 shows Claude’s generic response (before CLAUDE.md)
-- [ ] Screenshot 2 shows `/init` generated CLAUDE.md
-- [ ] Screenshot 3 shows fully customized CLAUDE.md with all 5 sections
-- [ ] Screenshot 4 shows updated deployment-aware Claude response
-- [ ] Screenshot 5 shows Claude rejecting React request based on rules
-- [ ] CLAUDE.md is committed and visible in GitHub repository
+[ ] Screenshot 1 shows a generic Claude response (no CLAUDE.md)<br>
+[ ] Screenshot 2 shows the auto-generated `/init` output <br>
+[ ] Screenshot 3 shows all 5 sections in your customized CLAUDE.md <br>
+[ ] Screenshot 4 shows Claude mentioning S3, CloudFront, and Terraform <br>
+[ ] Screenshot 5 shows Claude refusing the React request <br>
+[ ] Screenshot 6 shows `CLAUDE.md` committed and visible in your GitHub repository <br>
+[ ] GitHub repository URL is included in the submission <br>
 
 ---
 
