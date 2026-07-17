@@ -551,7 +551,7 @@ https://www.linkedin.com/posts/oluwatobiloba-taiwo_devops-linux-bash-ugcPost-748
 
 #### Screenshot — Published LinkedIn post
 
-![Screenshot — Published LinkedIn post](/week-03-linux-for-devops/screenshots/Screenshot-85-wk3.png)
+![Screenshot — Published LinkedIn post](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-85-wk3.png)
 
 
 ---
