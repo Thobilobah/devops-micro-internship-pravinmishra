@@ -415,8 +415,8 @@ This script combines several Bash concepts to automate different tasks. It uses 
 
 #### LinkedIn Post URL
 
-
 https://www.linkedin.com/posts/oluwatobiloba-taiwo_bash-linux-shellscripting-ugcPost-7483665158704349184-6gN6/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA
+
 ---
 
 #### Screenshot — Published LinkedIn post

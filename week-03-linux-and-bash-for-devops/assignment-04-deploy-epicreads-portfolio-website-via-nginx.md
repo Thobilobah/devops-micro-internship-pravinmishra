@@ -137,7 +137,7 @@ https://www.linkedin.com/posts/oluwatobiloba-taiwo_devops-aws-linux-ugcPost-7483
 #### Screenshot — Published LinkedIn post showing the live website with your Full Name in the footer
 
 ![Image of Published LinkedIn post showing the live website with your Full Name in the footer
-](/week-03-linux-for-devops/screenshots/Screenshot-45-wk3.png)
+](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-45-wk3.png)
 
 ---
 
