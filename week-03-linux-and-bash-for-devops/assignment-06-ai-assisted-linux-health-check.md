@@ -544,7 +544,6 @@ Verify: I confirmed the recovery by checking that Nginx was active, verifying an
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
 
 https://www.linkedin.com/posts/oluwatobiloba-taiwo_devops-linux-bash-ugcPost-7483881329839869952-yp4G/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA
 

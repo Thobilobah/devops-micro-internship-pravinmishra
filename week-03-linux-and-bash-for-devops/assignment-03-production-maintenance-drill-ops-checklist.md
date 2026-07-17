@@ -21,7 +21,7 @@ Verify that the deployed React application is reachable from the browser and con
 #### Screenshot 1 — Browser showing the React app with your Full Name visible on the UI
 
 
-![Image of Browser showing the deployed React app at `http://<public-ip>` with your name and date visible](/week-03-linux-for-devops/screenshots/Screenshot-11-wk3.png)
+![Image of Browser showing the deployed React app at `http://<public-ip>` with your name and date visible](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-11-wk3.png)
 
 ---
 
