@@ -27,19 +27,19 @@ Verify that the deployed React application is reachable from the browser and con
 
 #### Screenshot 2 — Output of `ip a`
 
-![Image Output of `ip a`](/week-03-linux-for-devops/screenshots/Screenshot-13-wk3.png)
+![Image Output of `ip a`](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-13-wk3.png)
 
 ---
 
 #### Screenshot 3 — Output of `sudo ss -tulpen`
 
-![Image Output of `sudo ss -tulpen`](/week-03-linux-for-devops/screenshots/Screenshot-14-wk3.png)
+![Image Output of `sudo ss -tulpen`](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-14-wk3.png)
 
 ---
 
 #### Screenshot 4 — Output of `sudo ufw status`
 
-![Image Output of sudo ufw status](/week-03-linux-for-devops/screenshots/Screenshot-15-wk3.png)
+![Image Output of sudo ufw status](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-15-wk3.png)
 
 ---
 
@@ -92,19 +92,19 @@ Verify that Nginx is properly installed, running, enabled at boot, and safely co
 
 #### Screenshot 1 — Output of `systemctl status nginx --no-pager`
 
-![Image Output of systemctl status nginx --no-pager](/week-03-linux-for-devops/screenshots/Screenshot-16-wk3.png)
+![Image Output of systemctl status nginx --no-pager](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-16-wk3.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo nginx -t`
 
-![Image Output of sudo nginx -t](/week-03-linux-for-devops/screenshots/Screenshot-17-wk3.png)
+![Image Output of sudo nginx -t](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-17-wk3.png)
 
 ---
 
 #### Screenshot 3 — Output of `sudo ss -lptn '( sport = :80 )'`
 
-![Image Output of sudo ss -lptn '( sport = :80 )](/week-03-linux-for-devops/screenshots/Screenshot-18-wk3.png)
+![Image Output of sudo ss -lptn '( sport = :80 )](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-18-wk3.png)
 
 ---
 
@@ -134,13 +134,13 @@ Verify real traffic flow and analyze logs to understand system behavior and erro
 
 #### Screenshot 1 — Output of `sudo tail -n 30 /var/log/nginx/access.log`
 
-![Image Output of sudo tail -n 30 /var/log/nginx/access.log](/week-03-linux-for-devops/screenshots/Screenshot-19-wk3.png)
+![Image Output of sudo tail -n 30 /var/log/nginx/access.log](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-19-wk3.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo tail -n 30 /var/log/nginx/error.log`
 
-![Image Output of sudo tail -n 30 /var/log/nginx/error.log](/week-03-linux-for-devops/screenshots/Screenshot-20-wk3.png)
+![Image Output of sudo tail -n 30 /var/log/nginx/error.log](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-20-wk3.png)
 
 
 ---
@@ -148,7 +148,7 @@ Verify real traffic flow and analyze logs to understand system behavior and erro
 #### Screenshot 3 — Output of `sudo journalctl -u nginx --no-pager -n 50`
 
 
-![Image Output of sudo journalctl -u nginx --no-pager -n 50](/week-03-linux-for-devops/screenshots/Screenshot-21-wk3.png)
+![Image Output of sudo journalctl -u nginx --no-pager -n 50](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-21-wk3.png)
 
 
 ---
@@ -207,25 +207,25 @@ Assess server capacity and detect potential performance or failure risks.
 
 #### Screenshot 1 — Output of `uptime`
 
-![Image Output of uptime](/week-03-linux-for-devops/screenshots/Screenshot-22-wk3.png)
+![Image Output of uptime](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-22-wk3.png)
 
 ---
 
 #### Screenshot 2 — Output of `free -h`
 
-![Image Output of uptime](/week-03-linux-for-devops/screenshots/Screenshot-23-wk3.png)
+![Image Output of uptime](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-23-wk3.png)
 
 ---
 
 #### Screenshot 3 — Output of `df -h`
 
-![ Output of `df -h`](/week-03-linux-for-devops/screenshots/Screenshot-24-wk3.png)
+![ Output of `df -h`](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-24-wk3.png)
 
 ---
 
 #### Screenshot 4 — Output of `sudo du -sh /var/* | sort -h`
 
-![Output of `sudo du -sh /var/* | sort -h`](/week-03-linux-for-devops/screenshots/Screenshot-25-wk3.png)
+![Output of `sudo du -sh /var/* | sort -h`](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-25-wk3.png)
 
 ---
 
@@ -256,20 +256,20 @@ Ensure the correct React build is deployed and Nginx is serving it properly.
 #### Screenshot 1 — Output of `ls -lah /var/www/html | head -n 20`
 
 
-![Output of `ls -lah /var/www/html | head -n 20`](/week-03-linux-for-devops/screenshots/Screenshot-26-wk3.png)
+![Output of `ls -lah /var/www/html | head -n 20`](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-26-wk3.png)
 
 ---
 
 #### Screenshot 2 — Output of `grep -R "Deployed by" -n /var/www/html 2>/dev/null | head`
 
-![Output of `grep -R "Deployed by" -n /var/www/html 2>/dev/null | head`](/week-03-linux-for-devops/screenshots/Screenshot-27-wk3.png)
+![Output of `grep -R "Deployed by" -n /var/www/html 2>/dev/null | head`](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-27-wk3.png)
 
 ---
 
 #### Screenshot 3 — Output of `grep -n "try_files" /etc/nginx/sites-available/default`
 
 
-![Output of `grep -n "try_files" /etc/nginx/sites-available/default`](/week-03-linux-for-devops/screenshots/Screenshot-28-wk3.png)
+![Output of `grep -n "try_files" /etc/nginx/sites-available/default`](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-28-wk3.png)
 
 ---
 
@@ -300,19 +300,19 @@ Simulate a real-world Nginx misconfiguration and recover the service safely.
 
 #### Screenshot 1 — Output of `sudo nginx -t` showing the syntax error (broken config)
 
-![Output of `sudo nginx -t` showing the syntax error (broken config)](/week-03-linux-for-devops/screenshots/Screenshot-29-wk3.png)
+![Output of `sudo nginx -t` showing the syntax error (broken config)](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-29-wk3.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo nginx -t` showing syntax ok (fixed config)
 
-![Output of `sudo nginx -t` showing syntax ok (fixed config)](/week-03-linux-for-devops/screenshots/Screenshot-30-wk3.png)
+![Output of `sudo nginx -t` showing syntax ok (fixed config)](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-30-wk3.png)
 
 ---
 
 #### Screenshot 3 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-![Output of `curl -I http://<public-ip>` confirming recovery (200 OK))](/week-03-linux-for-devops/screenshots/Screenshot-31-wk3.png)
+![Output of `curl -I http://<public-ip>` confirming recovery (200 OK))](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-31-wk3.png)
 
 ---
 
@@ -348,13 +348,13 @@ Simulate missing deployment content and recover the application safely.
 
 #### Screenshot 1 — Output of `curl -I http://<public-ip>` showing failure (non-200 response)
 
-![Output of curl -I http://<public-ip> showing failure (non-200 response)](/week-03-linux-for-devops/screenshots/Screenshot-32-wk3.png)
+![Output of curl -I http://<public-ip> showing failure (non-200 response)](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-32-wk3.png)
 
 ---
 
 #### Screenshot 2 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-![Output of `curl -I http://<public-ip>` confirming recovery (200 OK)](/week-03-linux-for-devops/screenshots/Screenshot-33-wk3.png)
+![Output of `curl -I http://<public-ip>` confirming recovery (200 OK)](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-33-wk3.png)
 
 ---
 
@@ -427,17 +427,13 @@ Stopping or terminating cloud resources when they are no longer needed helps avo
 
 Paste your LinkedIn post URL here:
 
-<<<<<<< HEAD:week-03-linux-for-devops/assignment-03-production-maintenance-drill-ops-checklist.md
-`https://www.linkedin.com/posts/oluwatobiloba-taiwo_production-maintenance-drill-learning-to-ugcPost-7483509750811402240-7oLp/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA`
-=======
 `Add your URL here`
->>>>>>> upstream/main:week-03-linux-and-bash-for-devops/assignment-03-production-maintenance-drill-ops-checklist.md
 
----
+https://www.linkedin.com/posts/oluwatobiloba-taiwo_production-maintenance-drill-learning-to-ugcPost-7483509750811402240-7oLp/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA
 
 #### Screenshot — Published LinkedIn post
 
-![Published LinkedIn post](/week-03-linux-for-devops/screenshots/Screenshot-34-wk3.png)
+![Published LinkedIn post](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-34-wk3.png)
 
 ---
 

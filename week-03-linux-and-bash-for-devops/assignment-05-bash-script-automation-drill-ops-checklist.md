@@ -20,13 +20,13 @@ Verify that Bash is available on your system and create a clean workspace for th
 
 #### Screenshot 1 — Output of `echo $SHELL` and `bash --version`
 
-![Image of `echo $SHELL` and `bash --version`](/week-03-linux-for-devops/screenshots/Screenshot-46-wk3.png)
+![Image of `echo $SHELL` and `bash --version`](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-46-wk3.png)
 
 ---
 
 #### Screenshot 2 — Output of `pwd` and `ls -lah` showing the scripts directory
 
-![Image of pwd` and `ls -lah` showing the scripts directory](/week-03-linux-for-devops/screenshots/Screenshot-47-wk3.png)
+![Image of pwd` and `ls -lah` showing the scripts directory](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-47-wk3.png)
 
 ---
 
@@ -62,19 +62,19 @@ Create your first Bash script, make it executable, and run it from the terminal.
 
 #### Screenshot 1 — Content of `first-script.sh`
 
-![Image of `first-script.sh`](/week-03-linux-for-devops/screenshots/Screenshot-48-wk3.png)
+![Image of `first-script.sh`](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-48-wk3.png)
 
 ---
 
 #### Screenshot 2 — Output of `./first-script.sh`
 
-![Image of ./first-script.sh`](/week-03-linux-for-devops/screenshots/Screenshot-49-wk3.png)
+![Image of ./first-script.sh`](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-49-wk3.png)
 
 ---
 
 #### Screenshot 3 — Output of `ls -l first-script.sh` showing executable permission
 
-![Image output of `ls -l first-script.sh` showing executable permission ](/week-03-linux-for-devops/screenshots/Screenshot-49a-wk3.png)
+![Image output of `ls -l first-script.sh` showing executable permission ](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-49a-wk3.png)
 
 ---
 
@@ -112,11 +112,11 @@ Use variables to store and display user-related information.
 
 
 
-![Image of Content of `user-info.sh`](/week-03-linux-for-devops/screenshots/Screenshot-50-wk3.png)
+![Image of Content of `user-info.sh`](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-50-wk3.png)
 
 #### Screenshot 2 — Output of `./user-info.sh`
 
-![Image of output of `user-info.sh`](/week-03-linux-for-devops/screenshots/Screenshot-51-wk3.png)
+![Image of output of `user-info.sh`](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-51-wk3.png)
 
 ---
 
@@ -152,13 +152,13 @@ Use arrays and loops to print a checklist of tools used in Bash scripting.
 
 #### Screenshot 1 — Content of `tools-checklist.sh`
 
-![Image of Content of `tools-checklist.sh`](/week-03-linux-for-devops/screenshots/Screenshot-52-wk3.png)
+![Image of Content of `tools-checklist.sh`](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-52-wk3.png)
 
 ---
 
 #### Screenshot 2 — Output of `./tools-checklist.sh`
 
-![Image of Output of `tools-checklist.sh`](/week-03-linux-for-devops/screenshots/Screenshot-53-wk3.png)
+![Image of Output of `tools-checklist.sh`](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-53-wk3.png)
 
 ---
 
@@ -200,13 +200,13 @@ Use loops to repeat a task multiple times.
 
 #### Screenshot 1 — Content of `counter.sh`
 
-![Image Content of `counter.sh`](/week-03-linux-for-devops/screenshots/Screenshot-54-wk3.png)
+![Image Content of `counter.sh`](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-54-wk3.png)
 
 ---
 
 #### Screenshot 2 — Output of `./counter.sh`
 
-![Image Output of `counter.sh`](/week-03-linux-for-devops/screenshots/Screenshot-55-wk3.png)
+![Image Output of `counter.sh`](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-55-wk3.png)
 
 ---
 
@@ -251,19 +251,19 @@ Use file checks and conditionals to verify whether files and directories exist.
 
 #### Screenshot 1 — Output of `ls -lah ../test-folder`
 
-![Image Output of `ls -lah ../test-folder`](/week-03-linux-for-devops/screenshots/Screenshot-56-wk3.png)
+![Image Output of `ls -lah ../test-folder`](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-56-wk3.png)
 
 ---
 
 #### Screenshot 2 — Content of `file-check.sh`
 
-![Image Content of `file-check.sh`](/week-03-linux-for-devops/screenshots/Screenshot-57-wk3.png)
+![Image Content of `file-check.sh`](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-57-wk3.png)
 
 ---
 
 #### Screenshot 3 — Output of `./file-check.sh`
 
-![Image Output of `file-check.sh`](/week-03-linux-for-devops/screenshots/Screenshot-58-wk3.png)
+![Image Output of `file-check.sh`](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-58-wk3.png)
 
 
 ---
@@ -306,25 +306,25 @@ Use if-else conditionals to make decisions based on a variable value.
 
 #### Screenshot 1 — Content of `score-check.sh` with `score=85`
 
-![Image Content of `score-check.sh` with `score=85`](/week-03-linux-for-devops/screenshots/Screenshot-59-wk3.png)
+![Image Content of `score-check.sh` with `score=85`](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-59-wk3.png)
 
 ---
 
 #### Screenshot 2 — Output showing `Result: Pass`
 
-![Image Output showing `Result: Pass`](/week-03-linux-for-devops/screenshots/Screenshot-60-wk3.png)
+![Image Output showing `Result: Pass`](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-60-wk3.png)
 
 ---
 
 #### Screenshot 3 — Content of `score-check.sh` with `score=55`
 
-![Image Content of `score-check.sh` with `score=55`](/week-03-linux-for-devops/screenshots/Screenshot-61-wk3.png)
+![Image Content of `score-check.sh` with `score=55`](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-61-wk3.png)
 
 ---
 
 #### Screenshot 4 — Output showing `Result: Retry`
 
-![Image Output showing `Result: Pass`](/week-03-linux-for-devops/screenshots/Screenshot-62-wk3.png)
+![Image Output showing `Result: Pass`](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-62-wk3.png)
 
 ---
 
@@ -366,19 +366,19 @@ Create a final Bash script using functions to organize reusable code.
 
 #### Screenshot 1 — Content of `final-automation.sh`
 
-![Content of `final-automation.sh`](/week-03-linux-for-devops/screenshots/Screenshot-63-wk3.png)
+![Content of `final-automation.sh`](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-63-wk3.png)
 
 ---
 
 #### Screenshot 2 — Output of `./final-automation.sh`
 
-![Outpou of `final-automation.sh`](/week-03-linux-for-devops/screenshots/Screenshot-64-wk3.png)
+![Outpou of `final-automation.sh`](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-64-wk3.png)
 
 ---
 
 #### Screenshot 3 — Output of `ls -lah` showing all created scripts
 
-![Output of `ls -lah` showing all created scripts](/week-03-linux-for-devops/screenshots/Screenshot-65-wk3.png)
+![Output of `ls -lah` showing all created scripts](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-65-wk3.png)
 
 ---
 
@@ -417,17 +417,13 @@ This script combines several Bash concepts to automate different tasks. It uses 
 
 Paste your LinkedIn post URL here:
 
-<<<<<<< HEAD:week-03-linux-for-devops/assignment-05-bash-script-automation-drill-ops-checklist.md
-https://www.linkedin.com/posts/oluwatobiloba-taiwo_bash-linux-shellscripting-ugcPost-7483665158704349184-6gN6/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA
-=======
 `Add your URL here`
->>>>>>> upstream/main:week-03-linux-and-bash-for-devops/assignment-05-bash-script-automation-drill-ops-checklist.md
-
+https://www.linkedin.com/posts/oluwatobiloba-taiwo_bash-linux-shellscripting-ugcPost-7483665158704349184-6gN6/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA
 ---
 
 #### Screenshot — Published LinkedIn post
 
-![Published Linkedin Post](/week-03-linux-for-devops/screenshots/Screenshot-66-wk3.png)
+![Published Linkedin Post](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-66-wk3.png)
 
 ---
 

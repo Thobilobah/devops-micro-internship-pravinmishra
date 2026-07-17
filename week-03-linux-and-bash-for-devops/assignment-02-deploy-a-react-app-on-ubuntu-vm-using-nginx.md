@@ -20,9 +20,9 @@ Install Node.js and npm on the Ubuntu VM and verify the installation.
 
 #### Screenshot 1 — Output of `node -v && npm -v` showing installed versions
 
-![Image Output of `node -v && npm -v` showing installed versions](/week-03-linux-for-devops/screenshots/Screenshot-02a-wk3.png)
-![Image Output of `node -v && npm -v` showing installed versions](/week-03-linux-for-devops/screenshots/Screenshot-02b-wk3.png)
-![Image Output of `node -v && npm -v` showing installed versions](/week-03-linux-for-devops/screenshots/Screenshot-02c-wk3.png)
+![Image Output of `node -v && npm -v` showing installed versions](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-02a-wk3.png)
+![Image Output of `node -v && npm -v` showing installed versions](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-02b-wk3.png)
+![Image Output of `node -v && npm -v` showing installed versions](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-02c-wk3.png)
 
 ---
 
@@ -36,8 +36,8 @@ Install Nginx, start the service, and confirm it is running.
 
 #### Screenshot 2 — Output of `systemctl status nginx --no-pager` showing Active (running)
 
-![Image of `systemctl status nginx --no-pager` showing Active (running)](/week-03-linux-for-devops/screenshots/Screenshot-03a-wk3.png)
-![Image of `systemctl status nginx --no-pager` showing Active (running)](/week-03-linux-for-devops/screenshots/Screenshot-03b-wk3.png)
+![Image of `systemctl status nginx --no-pager` showing Active (running)](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-03a-wk3.png)
+![Image of `systemctl status nginx --no-pager` showing Active (running)](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-03b-wk3.png)
 ---
 
 # Task 3 — Clone React Application
@@ -50,7 +50,7 @@ Clone the project repository and verify the project files are present.
 
 #### Screenshot 3 — Output of `ls` inside the `my-react-app` directory showing project files
 
-![ Image of `ls` inside the `my-react-app` directory showing project files ](/week-03-linux-for-devops/screenshots/Screenshot-04-wk3.png)
+![ Image of `ls` inside the `my-react-app` directory showing project files ](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-04-wk3.png)
 
 ---
 
@@ -64,7 +64,7 @@ Update `App.js` with your full name and the current date.
 
 #### Screenshot 4 — `nano App.js` open showing your full name and date filled in
 
-![Image of `nano App.js` open showing your full name and date filled in](/week-03-linux-for-devops/screenshots/Screenshot-05-wk3.png)
+![Image of `nano App.js` open showing your full name and date filled in](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-05-wk3.png)
 
 ---
 
@@ -78,7 +78,7 @@ Install dependencies and generate the production build.
 
 #### Screenshot 5 — Output of `ls` inside `my-react-app` showing the `build/` folder generated
 
-![Image of `ls` inside `my-react-app` showing the `build/` folder generated](/week-03-linux-for-devops/screenshots/Screenshot-06-wk3.png)
+![Image of `ls` inside `my-react-app` showing the `build/` folder generated](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-06-wk3.png)
 
 ---
 
@@ -92,7 +92,7 @@ Copy the production build files to the Nginx web root directory.
 
 #### Screenshot 6 — Output of `ls /var/www/html/` showing the deployed build contents
 
-![Image of `ls /var/www/html/` showing the deployed build contents](/week-03-linux-for-devops/screenshots/Screenshot-07-wk3.png)
+![Image of `ls /var/www/html/` showing the deployed build contents](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-07-wk3.png)
 ---
 
 # Task 7 — Configure Nginx for React Application
@@ -105,13 +105,13 @@ Apply Nginx configuration for React routing and confirm the service is active.
 
 #### Screenshot 7 — Output of `systemctl is-active nginx` showing `active`
 
-![Image of `systemctl is-active nginx` showing `active`](/week-03-linux-for-devops/screenshots/Screenshot-08-wk3.png)
+![Image of `systemctl is-active nginx` showing `active`](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-08-wk3.png)
 
 ---
 
 #### Screenshot 8 — Output of `cat /etc/nginx/sites-available/default` showing the Nginx config
 
-![Image of `cat /etc/nginx/sites-available/default` showing the Nginx config](/week-03-linux-for-devops/screenshots/Screenshot-09-wk3.png)
+![Image of `cat /etc/nginx/sites-available/default` showing the Nginx config](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-09-wk3.png)
 
 ---
 
@@ -125,13 +125,13 @@ Verify the React application is publicly accessible via the server's public IP.
 
 #### Screenshot 9 — Output of `curl ifconfig.me` showing the server's public IP address
 
-![Image of `curl ifconfig.me` showing the server's public IP address](/week-03-linux-for-devops/screenshots/Screenshot-10-wk3.png)
+![Image of `curl ifconfig.me` showing the server's public IP address](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-10-wk3.png)
 
 ---
 
 #### Screenshot 10 — Browser showing the deployed React app at `http://<public-ip>` with your name and date visible
 
-![Image of Browser showing the deployed React app at `http://<public-ip>` with your name and date visible](/week-03-linux-for-devops/screenshots/Screenshot-11-wk3.png)
+![Image of Browser showing the deployed React app at `http://<public-ip>` with your name and date visible](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-11-wk3.png)
 
 ---
 
@@ -143,17 +143,13 @@ Verify the React application is publicly accessible via the server's public IP.
 
 Paste your LinkedIn post URL here:
 
-<<<<<<< HEAD:week-03-linux-for-devops/assignment-02-deploy-a-react-app-on-ubuntu-vm-using-nginx.md
-`https://www.linkedin.com/posts/oluwatobiloba-taiwo_devops-aws-linux-share-7483188382861508608-ocq9/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA`
-=======
 `Add your URL here`
->>>>>>> upstream/main:week-03-linux-and-bash-for-devops/assignment-02-deploy-a-react-app-on-ubuntu-vm-using-nginx.md
-
+https://www.linkedin.com/posts/oluwatobiloba-taiwo_devops-aws-linux-share-7483188382861508608-ocq9/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA
 ---
 
 #### Screenshot — LinkedIn post showing the deployed application
 
-![Image of LinkedIn post showing the deployed application](/week-03-linux-for-devops/screenshots/Screenshot-12-wk3.png)
+![Image of LinkedIn post showing the deployed application](/week-03-linux-and-bash-for-devops/screenshots/Screenshot-12-wk3.png)
 
 ---
 
