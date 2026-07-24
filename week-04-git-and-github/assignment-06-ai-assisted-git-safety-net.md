@@ -27,7 +27,7 @@ Confirm you are working in your own fork, then create a dedicated branch for thi
 
 #### Screenshot 1 — Output of git remote -v and git branch showing the new branch
 
-Add your screenshot here.
+![Output of git remote -v and git branch showing the new branch](/week-04-git-and-github/screenshots/Ass-06-Screenshot-01a.png)
 
 ---
 
@@ -35,7 +35,12 @@ Add your screenshot here.
 
 **1. Why create a dedicated branch instead of doing this work on main?**
 
-Add your answer here.
+Based on the assignment and the Git workflow you've been practicing (feature branches, commits, rebasing, pull requests, and open-source collaboration), here's a strong answer:
+
+**1. Why create a dedicated branch instead of doing this work on `main`?**
+
+Creating a dedicated branch keeps the `main` branch stable and free from unfinished or experimental changes. It allows me to work on a specific feature or assignment in isolation, make multiple commits without affecting the production-ready code, and safely test or refine my work before merging it back. Using feature branches also makes collaboration easier, as changes can be reviewed through Pull Requests, conflicts can be resolved before merging, and the commit history remains clean and organized. This is a standard Git workflow used in both open-source and professional software development because it improves code quality, enables code reviews, and reduces the risk of introducing unintended changes into the main branch.
+
 
 ---
 
@@ -49,7 +54,7 @@ On your own fork of this repository (the one you've been submitting your DMI wor
 
 #### Screenshot 1 — Output of  `git status` showing the staged file on feature/ai-pr-ready
 
-Add your screenshot here.
+![Output of  `git status` showing the staged file on feature/ai-pr-ready](/week-04-git-and-github/screenshots/Ass-06-Screenshot-01b.png)
 
 ---
 
@@ -57,7 +62,7 @@ Add your screenshot here.
 
 **1. Why does this assignment use an obviously fake key instead of a real one?**
 
-Add your answer here.
+A fake AWS access key is used to ensure no real credentials are exposed or compromised during the exercise. It allows us to safely practice detecting hardcoded secrets with Git hooks without creating a security risk. This teaches the importance of never committing sensitive information to a repository while providing a realistic example that can be safely scanned, blocked, and removed before a commit is made.
 
 ---
 
@@ -71,13 +76,14 @@ Create a tracked, shareable pre-commit hook that blocks a commit containing secr
 
 #### Screenshot 2 — `hooks/pre-commit` open in VS Code showing the full script
 
-Add your screenshot here.
+![hooks/pre-commit` open in VS Code showing the full script](/week-04-git-and-github/screenshots/Ass-06-Screenshot-02.png)
+
 
 ---
 
 #### Screenshot 3 — Output of `git config core.hooksPath` confirming it points to `hooks`
 
-Add your screenshot here.
+![Output of `git config core.hooksPath` confirming it points to `hooks](/week-04-git-and-github/screenshots/Ass-06-Screenshot-2b.png)
 
 ---
 
@@ -85,13 +91,13 @@ Add your screenshot here.
 
 **1. Why is `hooks/pre-commit` tracked in the repo instead of living only in `.git/hooks/`?**
 
-Add your answer here.
+Tracking `hooks/pre-commit` in the repository allows the hook to be version-controlled and shared with every contributor. Since the default `.git/hooks/` directory is local to each developer and isn't tracked by Git, storing the hook in a tracked hooks/ folder ensures everyone uses the same pre-commit checks. Configuring Git to use this folder (core.hooksPath) makes the hook reusable, consistent, and easy to maintain across the team.
 
 ---
 
 **2. Compare this to `PreToolUse` from Week 2 Assignment 6. What does each one intercept, and what do they have in common?**
 
-Add your answer here.
+`PreToolUse` and Git's `pre-commit` hook both intercept actions before they happen, but they operate at different stages of the workflow. `PreToolUse` intercepts tool commands before they are executed by Claude Code, allowing it to block potentially destructive operations such as `terraform destroy` or deleting AWS resources. In contrast, the Git `pre-commit` hook intercepts the `git commit` process, scanning the staged changes for issues like hardcoded secrets or oversized files before a commit is created. What they have in common is that they both act as preventative safety mechanisms, enforcing rules early to stop risky actions before they can cause problems, rather than trying to fix the issues afterward.
 
 ---
 
@@ -105,7 +111,7 @@ Attempt to commit the staged file from Task 1 and show the hook rejecting it.
 
 #### Screenshot 4 — Terminal showing `git commit` rejected with the hook's "BLOCKED" message naming the exact file
 
-Add your screenshot here.
+![Terminal showing `git commit` rejected with the hook's "BLOCKED" message naming the exact file](/week-04-git-and-github/screenshots/Ass-06-Screenshot-03.png)
 
 ---
 
@@ -113,14 +119,17 @@ Add your screenshot here.
 
 **1. Which line in `hooks/pre-commit` matched your fake key, and why did it match?**
 
-Add your answer here.
+The line that matched the fake key was:
+```bash
+if git diff --cached -- "$file" | grep -qE ; then
+```
+It matched because the fake AWS access key used in the assignment began with the AKIA prefix and followed the format expected by the regular expression. The pre-commit hook scanned the staged changes, detected a string that matched this pattern, and blocked the commit before it could be created.
 
 ---
 
 **2. Could this hook have caught a poorly-named variable that stores a secret without the `AKIA` prefix? What does that tell you about the limits of a fixed rule like this?**
 
-Add your answer here.
-
+No. This hook would only detect secrets that match the specific patterns defined in its regular expression, such as AWS access keys beginning with AKIA or private key headers. If a secret was stored in a variable with a different format or without those patterns, the hook would not detect it. This highlights the limitation of fixed-rule validation: it is deterministic and reliable for known patterns, but it cannot identify every type of secret or understand context. More advanced tools or AI-assisted reviews can complement these rules by identifying suspicious content that doesn't match predefined patterns.
 ---
 
 # Task 4 — Build the `/pr-ready` Skill
@@ -133,13 +142,13 @@ Create a manually invoked Claude Code skill that reads your staged changes and p
 
 #### Screenshot 5 — `SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no `Write`) and `disable-model-invocation: true`
 
-Add your screenshot here.
+![`SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no `Write`) and `disable-model-invocation: true`](/week-04-git-and-github/screenshots/Ass-06-Screenshot-04.png)
 
 ---
 
 #### Screenshot 6 — `/pr-ready` output while the risky file is still staged, showing it flagged the secret and/or debug statement
 
-Add your screenshot here.
+![/pr-ready` output while the risky file is still staged, showing it flagged the secret and/or debug statement](/week-04-git-and-github/screenshots/Ass-06-Screenshot-05.png)
 
 ---
 
@@ -147,13 +156,13 @@ Add your screenshot here.
 
 **1. Why does `/pr-ready` have `Bash` and `Read` but not `Write`?**
 
-Add your answer here.
+`/pr-ready` has `Bash` and `Read` because it needs to inspect the repository by running commands like `git diff --cached` and `git status`, and read the staged changes to generate a Pull Request draft. It does not have `Write` because its purpose is only to analyze and provide recommendations. Excluding `Write` prevents it from modifying files, creating commits, pushing changes, or opening a Pull Request, ensuring that all final actions remain under the developer's control.
 
 ---
 
 **2. The pre-commit hook and `/pr-ready` both looked at the same staged diff. Did they flag the same things? What did one catch that the other didn't?**
 
-Add your answer here.
+No, they did not flag the same things. The pre-commit hook focused on fixed, predefined rules by scanning the staged diff for known secret patterns (such as AWS access keys) and oversized files, blocking the commit if any were found. In contrast, /pr-ready performed a broader review by looking for debug statements, TODO/FIXME comments, mixed or unrelated changes, missing documentation, and drafting a Pull Request title and description. The hook was effective at catching known patterns automatically, while /pr-ready provided contextual feedback and highlighted issues that required judgment rather than simple pattern matching. Together, they complement each other by combining deterministic validation with AI-assisted code review.
 
 ---
 
@@ -167,13 +176,13 @@ Remove the secret and debug statement, then prove both gates now pass clean.
 
 #### Screenshot 7 — `git commit` succeeding after the fix (no BLOCKED message)
 
-Add your screenshot here.
+![git commit` succeeding after the fix (no BLOCKED message)](/week-04-git-and-github/screenshots/Ass-06-Screenshot-06.png)
 
 ---
 
 #### Screenshot 8 — Second `/pr-ready` run showing a clean risk report and a drafted PR title + description
 
-Add your screenshot here.
+![second `/pr-ready` run showing a clean risk report and a drafted PR title + description](/week-04-git-and-github/screenshots/Ass-06-Screenshot-07.png)
 
 ---
 
@@ -181,7 +190,7 @@ Add your screenshot here.
 
 **1. What exactly did you change to satisfy the pre-commit hook?**
 
-Add your answer here.
+To satisfy the pre-commit hook, I removed the hardcoded fake AWS access key and deleted the debug echo statement that printed the credential. After making these changes, I staged the updated file again, and the pre-commit hook no longer detected any secret-like patterns or debug output, allowing the commit to proceed successfully.
 
 ---
 
@@ -197,13 +206,13 @@ Push your branch and open a real Pull Request, using `/pr-ready`'s drafted title
 
 #### Screenshot 9 — Your Pull Request showing the base repository is your own fork, plus the title and description, with the `/pr-ready` draft visible for comparison (paste it in the PR conversation or your notes below)
 
-Add your screenshot here.
+![Pull request](/week-04-git-and-github/screenshots/Ass-06-Screenshot-08.png)
 
 ---
 
 #### PR Link
 
-Add your PR URL here...
+https://github.com/Thobilobah/devops-micro-internship-pravinmishra/pull/1
 
 ---
 
@@ -211,19 +220,19 @@ Add your PR URL here...
 
 **1. What, if anything, did you edit in the AI's drafted PR description before using it? Why?**
 
-Add your answer here.
+I reviewed the AI-generated draft and edited it to make it more accurate and relevant to the changes I actually made. I updated the summary, removed any unnecessary or generic information, and ensured the description clearly reflected the work completed in my branch. This helped make the PR more professional and easier for reviewers to understand.
 
 ---
 
 **2. If you had blindly copy-pasted the AI's draft without reading it, what could go wrong?**
 
-Add your answer here.
+Blindly copying the AI's draft could result in incorrect or misleading information in the Pull Request. The description might include changes that were never made, omit important details, or contain inaccurate explanations. Reviewing the draft ensures the PR accurately represents the work and prevents confusion for reviewers.
 
 ---
 
 **3. Why does this PR need to target your own fork instead of the shared upstream repository?**
 
-Add your answer here.
+This PR should target my own fork because the assignment files, hooks, skills, and configurations are part of my personal practice work and are not intended to be merged into the shared upstream repository. Opening the PR against my fork allows me to demonstrate my work safely without affecting the official class repository or other students' work.
 
 ---
 
@@ -237,31 +246,31 @@ Explain this assignment's workflow using the same Gather → Analyze → Human A
 
 **1. Which step(s) represent Gather?**
 
-Add your answer here.
+The Gather step involves collecting information about the project before creating the Pull Request. Claude gathers details such as the changed files, commit history, Git status, and other project context needed to understand what was modified.
 
 ---
 
 **2. Which step(s) represent Analyze?**
 
-Add your answer here.
+The Analyze step is where Claude processes the gathered information and generates a draft Pull Request title and description. It summarizes the changes, organizes them into a clear format, and identifies the important updates that should be included in the PR.
 
 ---
 
 **3. Which step is Human Act, and why must a human — not Claude — run `git commit`, `git push`, and open the PR?**
 
-Add your answer here.
+The Human Act step is when I review Claude's suggestions, confirm they are accurate, and then run git commit, git push, and create the Pull Request myself. These actions modify the Git repository and publish changes to GitHub, so they require human approval and responsibility to prevent mistakes or unintended changes.
 
 ---
 
 **4. Which step is Verify?**
 
-Add your answer here.
+The Verify step involves checking that the Pull Request was created correctly. This includes confirming the correct base repository and branch, ensuring the title and description accurately represent the changes, and verifying that the required screenshots and evidence have been included.
 
 ---
 
 **5. In one or two sentences: why do you need *both* the fixed-rule pre-commit hook and the AI skill? Isn't one enough?**
 
-Add your answer here.
+The fixed-rule pre-commit hook automatically enforces predefined rules, such as blocking secrets or unwanted files before a commit. The AI skill complements this by understanding the context of the changes, generating meaningful PR descriptions, and providing intelligent suggestions that fixed rules cannot. Together, they make the workflow both safer and more effective.
 
 ---
 
@@ -275,7 +284,7 @@ Publish a LinkedIn post summarizing what you built and what you learned about co
 
 #### LinkedIn Post URL
 
-Add your LinkedIn post URL here...
+https://www.linkedin.com/posts/oluwatobiloba-taiwo_devops-git-github-ugcPost-7486209588124553216-RzsQ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA
 
 ---
 
@@ -283,9 +292,11 @@ Add your LinkedIn post URL here...
 
 Add 3-5 bullet points on what you learned this week.
 
--
--
--
+-Learned how to initialize and configure Git repositories using both local and global Git settings.
+-Understood how AI can assist in creating Pull Request titles and descriptions while still requiring human review and approval.
+-Learned the importance of reviewing AI-generated content instead of copying it directly to ensure accuracy and relevance.
+-Gained a better understanding of the Gather → Analyze → Human Act → Verify workflow and how it applies to AI-assisted software development.
+-Learned why combining fixed-rule safety checks (hooks) with AI-assisted analysis creates a safer and more effective development workflow.
 
 ---
 
@@ -305,7 +316,7 @@ Add 3-5 bullet points on what you learned this week.
 
 Paste your forked repository URL here:
 
-`Add your URL here`
+https://github.com/Thobilobah/devops-micro-internship-interviews/tree/feature-readme-update
 
 ---
 
