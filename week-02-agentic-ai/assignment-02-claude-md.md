@@ -68,7 +68,7 @@ Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a ne
 
 #### Screenshot 5 — Claude refusing or warning against adding React because of the "No JavaScript" convention defined in CLAUDE.md
 
-Add your screenshot here.
+![Assignment-02](/week-02-agentic-ai/screenshots/Screenshot-10.png)
 
 ---
 
@@ -82,7 +82,7 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 
 #### Screenshot 6 — `CLAUDE.md` visible in your GitHub repository after pushing the commit
 
-![Assignment-02](/week-02-agentic-ai/screenshots/Screenshot-10.png)
+![Assignment-02](/week-02-agentic-ai/screenshots/Screenshot-10a.png)
 
 ---
 
@@ -98,7 +98,7 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 
 Paste your forked repository URL here:
 
-`Add your URL here`
+https://github.com/Thobilobah/Ultimate-Agentic-DevOps-with-Claude-Code
 
 ---
 

@@ -77,13 +77,13 @@ This is not a course. It is an internship-style program — real deployments, re
 [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) 
 
 <!-- Week 03 → Linux & Bash for DevOps -->
-<!-- [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) -->
+[![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) 
 
 <!-- Week 04 → Bash Scripting -->
-<!-- [![Week 04 – Bash](./badges/week-04.svg)](./week-04-bash-scripting/) -->
+ [![Week 04 – Bash](./badges/week-04.svg)](./week-04-bash-scripting/)
 
 <!-- Week 05 → Git & GitHub -->
-<!-- [![Week 05 – Git](./badges/week-05.svg)](./week-05-github/) -->
+[![Week 05 – Git](./badges/week-05.svg)](./week-05-github/) 
 
 <!-- Week 06 → AWS Cloud -->
 <!-- [![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/) -->
@@ -131,7 +131,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ✅ Completed| ✅ Solved
-| — | — |
+| https://www.linkedin.com/posts/oluwatobiloba-taiwo_epic-reads-shop-young-adult-ya-books-activity-7457178625457414144-EcD2?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA| https://medium.com/@taiwotobiloba1/what-i-learned-in-week-0-of-my-devops-micro-internship-internet-networking-tooling-basics-0e8bf54640bd |
 | 01 | Success Mindset | ✅ Completed | ✅ Solved| ---https://www.linkedin.com/posts/oluwatobiloba-taiwo_join-the-dmi-devops-micro-internship-activity-7477087478840131584-VPcL?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA | https://medium.com/@taiwotobiloba1/the-journey-of-tobby-taiwo-from-engineering-graduate-to-cloud-and-devops-engineer-2ec674f2c46a |
 | 02 | Agentic AI with Claude Code |  ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/oluwatobiloba-taiwo_devops-agenticai-claudecode-activity-7481376968702238720-kSmo?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA|https://medium.com/@taiwotobiloba1/reflection-week-2-by-oluwatobiloba-taiwo-60d068ff40c4?postPublishedType=initial|
 | 03 | Linux for DevOps | ✅ Completed |  ✅ Solved  | https://www.linkedin.com/posts/oluwatobiloba-taiwo_devops-linux-bash-ugcPost-7483881329839869952-yp4G/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA| https://medium.com/@taiwotobiloba1/linux-for-devops-lessons-from-building-an-ai-assisted-incident-triage-workflow-5bf522044902 |

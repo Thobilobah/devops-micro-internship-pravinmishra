@@ -25,7 +25,7 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![Task 1 Screenshot](/week-00-internet-and-networking/screenshots/chatgpt-prompt.png)
 
 
 Replace `task-1-chatgpt.png` with your actual screenshot file name.
@@ -34,7 +34,8 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+This task helped me better understand how networking concepts apply to real-world communication. It also improved my ability to explain technical ideas in a simple and relatable way. Overall, it strengthened both my technical understanding and communication skills.
+
 
 ---
 
@@ -59,7 +60,8 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+When a user visits EpicReads from anywhere in the world, their request is broken into small pieces using packet switching. These packets travel across different networks to reach the server in Finland. Each device connected to the internet has a unique IP address, which helps route the request to the correct server hosting the website. Communication between the user’s device and the server is governed by TCP/IP, which ensures the data is sent reliably and reassembled correctly. Once the request reaches the server, HTTP or HTTPS is used to transfer the webpage data back to the user’s browser. HTTPS adds a layer of security by encrypting the data, ensuring safe communication. Together, these technologies make it possible for users globally to access EpicReads seamlessly.
+
 
 ---
 
@@ -91,7 +93,7 @@ EpicReads bookstore has two application versions:
 
 Save your diagram image in the `screenshots` folder and update the file name below.
 
-![Application Architecture Diagram](screenshots/task-3-diagram.png)
+![Application Architecture Diagram](/week-00-internet-and-networking/screenshots/My-app-architecture.png)
 
 
 Replace `task-3-diagram.png` with your actual diagram file name.
@@ -102,18 +104,18 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* HTML
+* CSS
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Nodejs
+* .Net
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* Mysql
+* Postgresql
 
 ---
 
@@ -142,7 +144,9 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+The Domain Name System (DNS) is like the internet’s phonebook. It translates human-friendly domain names like epicreads.com into IP addresses such as 52.172.142.222, which computers use to locate servers.
+To connect the domain to the IP, an A record should be used. This is because an A record directly maps a domain name to an IPv4 address, ensuring that when users enter epicreads.com, they are routed to the correct server hosting the application.
+
 
 ---
 
@@ -178,7 +182,7 @@ ls
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
+![VS Code Setup Screenshot](/week-00-internet-and-networking/screenshots/vscode-setup.png)
 
 
 Replace `task-5-vscode.png` with your actual screenshot file name.
@@ -217,17 +221,42 @@ Add the following credit note at the end of your post:
 
 Paste your LinkedIn post URL here:
 
-```text
-Add your URL here...
-```
+https://www.linkedin.com/posts/oluwatobiloba-taiwo_epic-reads-shop-young-adult-ya-books-activity-7457178625457414144-EcD2?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA
 
 ---
 
 ## LinkedIn Post Backup Copy
 
-Paste the full text of your LinkedIn post here:
+🚀 Excited to share my learnings from Tasks 1–5 of the DevOps Micro Internship Cohort!
+Here is a quick summary of what I explored and understood:
+✅ 1. ChatGPT
+ChatGPT is an AI tool that helps generate answers, explain concepts, and solve problems.
+I used it to learn faster, troubleshoot issues, and understand DevOps concepts from different angles.
+🌍 2. Internet & Networking
+A protocol is a set of rules that devices follow to communicate.
+For example, when you open a website, HTTP or HTTPS ensures your browser and the server understand each other.
+In a real scenario like EpicReads, requests are broken into packets, sent using TCP/IP to the server’s IP address, and returned securely via HTTP or HTTPS.
+🏗 3. App Architecture (EpicReads Bookstore)
+Two-Tier (Frontend + Database):
+Frontend: HTML, CSS, JavaScript, React
+Database: MySQL, PostgreSQL, MongoDB
+Three-Tier (Frontend + Backend + Database):
+Frontend: HTML, CSS, JavaScript, React
+Backend: Node.js, .NET, Django
+Database: MySQL, PostgreSQL, MongoDB
+Three-tier architecture is more scalable, secure, and easier to maintain.
+🌐 4. DNS (Domain Name System)
+DNS works like the internet’s phonebook. It converts domain names like epicreads.com into IP addresses.
+An A record is used to connect the domain to an IPv4 address, making the website accessible to users.
+💻 5. VS Code Setup
+I used VS Code to set up my project environment and manage files.
+I worked with the integrated terminal (PowerShell) to run commands and organize my workflow.
+Extensions like Live Server and Prettier helped improve productivity.
+🎯 Each task helped me better understand core DevOps and networking concepts while strengthening my hands-on skills.
+P.S. This post is part of the FREE DevOps Micro Internship Cohort run by Pravin Mishra. You can start your DevOps journey for free from his YouTube Playlist.
 
-Add your post content here...
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public: https://lnkd.in/eq3NrvMj · Start your DevOps journey: https://lnkd.in/e8xfwJvy
+hashtag#DevOps hashtag#LearningInPublic hashtag#Internship hashtag#Cloud hashtag#Networking hashtag#Linux hashtag#AWS hashtag#Growth
 
 ---
 
@@ -235,19 +264,19 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+I found Tasks 1 and 2 pretty easy
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+I found using the draw.io a little difficult at first
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+I will try to focus on Success mindset and getting the best of the mentorship
 
 ---
 

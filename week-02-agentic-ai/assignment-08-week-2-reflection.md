@@ -46,7 +46,7 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+![Blog-post](/week-02-agentic-ai/screenshots/Screenshot-medium.png)
 
 ---
 
@@ -54,7 +54,7 @@ Add your screenshot here.
 
 Blog Link:
 
-`Add your URL here`
+https://medium.com/@taiwotobiloba1/agentic-ai-in-devops-from-automation-to-autonomous-operations-07246ab9e548
 
 ---
 
@@ -92,7 +92,7 @@ Your post must include:
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+![linkedin-post](/week-02-agentic-ai/screenshots/Screenshot-linkedin-post-wk-2.png)
 
 ---
 
@@ -101,14 +101,29 @@ Add your screenshot here.
 LinkedIn Post Content (copy-paste here):
 
 ```
-Paste your LinkedIn post content here
+Week 2 of the DevOps Micro Internship challenged me to think differently about AI, not just as a chatbot, but as an intelligent agent capable of planning, reasoning, remembering context, and interacting with external tools.
+This week, I explored:
+🤖 How Agentic AI works
+📖 Using CLAUDE.md to teach AI about a project
+🛠️ Claude Code Skills
+🤝 Building and using Subagents
+🔗 MCP (Model Context Protocol) servers
+🔒 Safety Hooks, permissions, and configuration
+🧠 How Claude stores and uses project memory
+One of the most interesting lessons was seeing how multiple AI capabilities can be combined to automate real development workflows while still maintaining safety through hooks and permission controls.
+Not everything went smoothly. I spent a considerable amount of time troubleshooting hook configurations, MCP server connections, GitHub authentication, file path issues, shell differences between Bash and Zsh, and debugging why hooks weren't behaving as expected. Those moments were frustrating, but they reinforced an important lesson: debugging and understanding why something fails is just as valuable as getting it to work.
+Every challenge improved my understanding of how Claude Code actually operates behind the scenes.
+
+I am looking forward to applying these concepts to build safer, more capable AI-assisted DevOps workflows in the coming weeks.
+hashtag#DevOps hashtag#AgenticAI hashtag#ClaudeCode hashtag#MCP hashtag#Automation hashtag#Cloud hashtag#GitHub hashtag#LearningInPublic hashtag#AIEngineering hashtag#DevOpsInternship
+P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community ( https://lnkd.in/ebYKsqxt ).
 ```
 
 ---
 
 ### LinkedIn Post Link:
 
-`Add your URL here`
+https://www.linkedin.com/posts/oluwatobiloba-taiwo_devops-agenticai-claudecode-activity-7481376968702238720-kSmo?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA
 
 ---
 

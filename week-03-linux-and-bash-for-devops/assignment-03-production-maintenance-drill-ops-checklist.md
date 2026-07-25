@@ -427,8 +427,6 @@ Stopping or terminating cloud resources when they are no longer needed helps avo
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
-
 https://www.linkedin.com/posts/oluwatobiloba-taiwo_production-maintenance-drill-learning-to-ugcPost-7483509750811402240-7oLp/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA
 
 #### Screenshot — Published LinkedIn post

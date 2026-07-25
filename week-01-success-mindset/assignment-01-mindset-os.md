@@ -390,7 +390,7 @@ I will spend at least one focused hour every weekday improving my DevOps skills,
 
 Paste your LinkedIn post link here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/oluwatobiloba-taiwo_join-the-dmi-devops-micro-internship-activity-7477087478840131584-VPcL?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA
 
 ---
 
@@ -399,7 +399,7 @@ Paste your LinkedIn post link here:
 - LinkedIn Post URL: **ADD LINK HERE**  
 - Blog / Medium : **ADD LINK HERE**  
 
----https://www.linkedin.com/posts/oluwatobiloba-taiwo_join-the-dmi-devops-micro-internship-activity-7477087478840131584-VPcL?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA
+https://www.linkedin.com/posts/oluwatobiloba-taiwo_join-the-dmi-devops-micro-internship-activity-7477087478840131584-VPcL?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA
 
 https://medium.com/@taiwotobiloba1/the-journey-of-tobby-taiwo-from-engineering-graduate-to-cloud-and-devops-engineer-2ec674f2c46a
 
