@@ -219,8 +219,6 @@ Add the following credit note at the end of your post:
 
 ## LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
-
 https://www.linkedin.com/posts/oluwatobiloba-taiwo_epic-reads-shop-young-adult-ya-books-activity-7457178625457414144-EcD2?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA
 
 ---

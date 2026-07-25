@@ -162,9 +162,8 @@ Install and start Nginx on your EC2 instance, then copy `index.html` and `style.
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
+https://www.linkedin.com/posts/oluwatobiloba-taiwo_devops-git-github-share-7485461513823039488-Rgk4/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA
 
-`Add your URL here`
 
 ---
 
