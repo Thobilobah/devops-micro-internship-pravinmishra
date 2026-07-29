@@ -17,7 +17,7 @@
 | **Name** | Oluwatobiloba Taiwo |
 | **LinkedIn** | [Oluwatobiloba Taiwo Devops Engineer](https://www.linkedin.com/in/oluwatobiloba-taiwo/) |
 | **Location** | Lagos, Nigeria |
-| **Background** | Cloud, DevOps & Software Development |
+| **Background** | Cloud, DevOps & Software Development  |
 | **Goal** | Gain Hands On experience on Devops |
 
 ---
@@ -28,8 +28,8 @@
 
 This is not a course. It is an internship-style program — real deployments, real pipelines, real evidence reviewed by mentors every week.
 
-- 🌐 Program Website: https://dmi.pravinmishra.com
-- 💬 Discord Community: https://discord.pravinmishra.com
+- 🌐 Program Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme
+- 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme
 - 📺 YouTube: [Pravin Mishra](https://www.youtube.com/@awswithpravinmishra)
 - 🔗 Instructor: [LinkedIn](https://www.linkedin.com/in/pravin-mishra-aws-trainer/)
 
@@ -61,29 +61,29 @@ This is not a course. It is an internship-style program — real deployments, re
 
 **Preview — what your full stack looks like:**
 
-[![Week 00](./badges/week-00.svg)](./week-00-internet-and-networking/)[![Week 01](./badges/week-01.svg)](./week-01-success-mindset/)[![Week 02](./badges/week-02.svg)](./week-02-agentic-ai/)[![Week 03](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)[![Week 04](./badges/week-04.svg)](./week-04-github/)[![Week 05](./badges/week-05.svg)](./week-05-devops-lifecycle/)[![Week 06](./badges/week-06.svg)](./week-06-aws-cloud/)[![Week 07](./badges/week-07.svg)](./week-07-azure-cloud/)[![Week 08](./badges/week-08.svg)](./week-08-terraform/)[![Week 09](./badges/week-09.svg)](./week-09-ansible/)[![Week 10](./badges/week-10.svg)](./week-10-azure-devops/)[![Week 11](./badges/week-11.svg)](./week-11-docker/)[![Week 12](./badges/week-12.svg)](./week-12-kubernetes/)[![Week 13](./badges/week-13.svg)](./week-13-final-project/)
+[![Week 00](./badges/week-00.svg)](./week-00-internet-and-networking/)[![Week 01](./badges/week-01.svg)](./week-01-success-mindset/)[![Week 02](./badges/week-02.svg)](./week-02-agentic-ai/)[![Week 03](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)[![Week 04](./badges/week-04.svg)](./week-04-git-and-github/)[![Week 05](./badges/week-05.svg)](./week-05-devops-lifecycle/)[![Week 06](./badges/week-06.svg)](./week-06-aws-cloud/)[![Week 07](./badges/week-07.svg)](./week-07-azure-cloud/)[![Week 08](./badges/week-08.svg)](./week-08-terraform/)[![Week 09](./badges/week-09.svg)](./week-09-ansible/)[![Week 10](./badges/week-10.svg)](./week-10-azure-devops/)[![Week 11](./badges/week-11.svg)](./week-11-docker/)[![Week 12](./badges/week-12.svg)](./week-12-kubernetes/)[![Week 13](./badges/week-13.svg)](./week-13-final-project/)
 
 ---
 
-**Your stack :**
+**Your stack (uncomment each badge as you earn it):**
 
 <!-- Week 00 → Internet & Networking Basics -->
-[![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/)
+<!-- [![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/) -->
 
 <!-- Week 01 → Success Mindset -->
-[![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/) 
+<!-- [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/) -->
 
 <!-- Week 02 → Agentic AI with Claude Code -->
-[![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) 
+<!-- [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) -->
 
 <!-- Week 03 → Linux & Bash for DevOps -->
-[![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) 
+<!-- [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) -->
 
-<!-- Week 04 → Bash Scripting -->
- [![Week 04 – Bash](./badges/week-04.svg)](./week-04-bash-scripting/)
+<!-- Week 04 → Git & GitHub -->
+<!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/) -->
 
-<!-- Week 05 → Git & GitHub -->
-[![Week 05 – Git](./badges/week-05.svg)](./week-05-github/) 
+<!-- Week 05 → DevOps Lifecycle & Agile -->
+<!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
 
 <!-- Week 06 → AWS Cloud -->
 <!-- [![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/) -->
@@ -109,7 +109,7 @@ This is not a course. It is an internship-style program — real deployments, re
 <!-- Week 13 → Final Project / Capstone -->
 <!-- [![Week 13 – Capstone](./badges/week-13.svg)](./week-13-final-project/) -->
 
-
+*Complete a week → uncomment the badge → watch your stack grow.*
 
 ---
 
@@ -134,18 +134,17 @@ This is not a course. It is an internship-style program — real deployments, re
 | https://www.linkedin.com/posts/oluwatobiloba-taiwo_epic-reads-shop-young-adult-ya-books-activity-7457178625457414144-EcD2?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA| https://medium.com/@taiwotobiloba1/what-i-learned-in-week-0-of-my-devops-micro-internship-internet-networking-tooling-basics-0e8bf54640bd |
 | 01 | Success Mindset | ✅ Completed | ✅ Solved| ---https://www.linkedin.com/posts/oluwatobiloba-taiwo_join-the-dmi-devops-micro-internship-activity-7477087478840131584-VPcL?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA | https://medium.com/@taiwotobiloba1/the-journey-of-tobby-taiwo-from-engineering-graduate-to-cloud-and-devops-engineer-2ec674f2c46a |
 | 02 | Agentic AI with Claude Code |  ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/oluwatobiloba-taiwo_devops-agenticai-claudecode-activity-7481376968702238720-kSmo?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA|https://medium.com/@taiwotobiloba1/reflection-week-2-by-oluwatobiloba-taiwo-60d068ff40c4?postPublishedType=initial|
-| 03 | Linux for DevOps | ✅ Completed |  ✅ Solved  | https://www.linkedin.com/posts/oluwatobiloba-taiwo_devops-linux-bash-ugcPost-7483881329839869952-yp4G/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA| https://medium.com/@taiwotobiloba1/linux-for-devops-lessons-from-building-an-ai-assisted-incident-triage-workflow-5bf522044902 |
-| 04 | Bash Scripting | ✅ Completed  | ✅ Solved  | https://www.linkedin.com/posts/oluwatobiloba-taiwo_devops-linux-bash-ugcPost-7483881329839869952-yp4G/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA| https://medium.com/@taiwotobiloba1/linux-for-devops-lessons-from-building-an-ai-assisted-incident-triage-workflow-5bf522044902 |
-| 05 | Git & GitHub |✅ Completed  | ✅ Solved   |https://www.linkedin.com/posts/oluwatobiloba-taiwo_devops-git-github-ugcPost-7486209588124553216-RzsQ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA| https://medium.com/@taiwotobiloba1/building-safer-ai-assisted-development-workflows-with-git-and-claude-code-eb63c880e0f4?sharedUserId=taiwotobiloba1|
-| 06 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
-| 07 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
-| 08 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
-| 09 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
-| 10 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
-| 11 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
-| 12 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
-| 13 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
-| 14 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
+| 03 | Linux & Bash for DevOps | ✅ Completed |  ✅ Solved  | https://www.linkedin.com/posts/oluwatobiloba-taiwo_devops-linux-bash-ugcPost-7483881329839869952-yp4G/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA| https://medium.com/@taiwotobiloba1/linux-for-devops-lessons-from-building-an-ai-assisted-incident-triage-workflow-5bf522044902 |
+| 04 | Git & GitHub |✅ Completed  | ✅ Solved   |https://www.linkedin.com/posts/oluwatobiloba-taiwo_devops-git-github-ugcPost-7486209588124553216-RzsQ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA| https://medium.com/@taiwotobiloba1/building-safer-ai-assisted-development-workflows-with-git-and-claude-code-eb63c880e0f4?sharedUserId=taiwotobiloba1|
+| 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
+| 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
+| 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
+| 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
+| 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
+| 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
+| 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
+| 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
+| 13 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
 
 **Status:** ⬜ Not Started &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ✅ Completed<br>
 **Assignment:** ⏳ Pending &nbsp;|&nbsp; ✅ Solved
@@ -166,5 +165,5 @@ If you found this repo useful or want to follow my DevOps journey:
 
 - ⭐ Star this repo
 - 🔗 Connect with me on [LinkedIn](#)
-- 🌐 Learn more about the program: https://dmi.pravinmishra.com
-- 💬 Join the community: https://discord.pravinmishra.com
+- 🌐 Learn more about the program: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme
+- 💬 Join the community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme
