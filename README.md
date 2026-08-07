@@ -68,19 +68,19 @@ This is not a course. It is an internship-style program — real deployments, re
 **Your stack (uncomment each badge as you earn it):**
 
 <!-- Week 00 → Internet & Networking Basics -->
-<!-- [![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/) -->
+[![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/)
 
 <!-- Week 01 → Success Mindset -->
-<!-- [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/) -->
+[![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/)
 
 <!-- Week 02 → Agentic AI with Claude Code -->
-<!-- [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) -->
+[![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/)
 
 <!-- Week 03 → Linux & Bash for DevOps -->
-<!-- [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) -->
+[![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) 
 
 <!-- Week 04 → Git & GitHub -->
-<!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/) -->
+[![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/)
 
 <!-- Week 05 → DevOps Lifecycle & Agile -->
 <!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
@@ -135,7 +135,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 02 | Agentic AI with Claude Code |  ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/oluwatobiloba-taiwo_devops-agenticai-claudecode-activity-7481376968702238720-kSmo?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA|https://medium.com/@taiwotobiloba1/reflection-week-2-by-oluwatobiloba-taiwo-60d068ff40c4?postPublishedType=initial|
 | 03 | Linux & Bash for DevOps | ✅ Completed |  ✅ Solved  | https://www.linkedin.com/posts/oluwatobiloba-taiwo_devops-linux-bash-ugcPost-7483881329839869952-yp4G/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA| https://medium.com/@taiwotobiloba1/linux-for-devops-lessons-from-building-an-ai-assisted-incident-triage-workflow-5bf522044902 |
 | 04 | Git & GitHub |✅ Completed  | ✅ Solved   |https://www.linkedin.com/posts/oluwatobiloba-taiwo_devops-git-github-ugcPost-7486209588124553216-RzsQ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA| https://medium.com/@taiwotobiloba1/building-safer-ai-assisted-development-workflows-with-git-and-claude-code-eb63c880e0f4?sharedUserId=taiwotobiloba1|
-| 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
+| 05 | DevOps Lifecycle & Agile | ✅ Completed  | ✅ Solved | https://www.linkedin.com/posts/oluwatobiloba-taiwo_devops-agile-scrum-ugcPost-7491501903323942912-soSd/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACz7IugBIR_XEr4WBbn9LYa6OeAS8fYZbYA| https://medium.com/@taiwotobiloba1/reflection-understanding-the-devops-lifecycle-through-agile-and-ai-assisted-project-management-3fa242ffe55c |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
